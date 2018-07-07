@@ -1,0 +1,69 @@
+//
+// Prefix header for all source files of the 'LendiProperty' target in the 'LendiProperty' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "LendiPropertyAppDelegate.h"
+
+#define MainUrl @"http://75.147.113.169/lindiproperty/index.php/lindiproperty/"
+//#define MainURL @"http://whitelakeinteractive.com/certificate-production_api/api/api.php?cmd="
+
+#define SecondUrl @"http://75.147.113.169/lindiproperty/api/api.php?cmd="
+#import "GlobalJSONParser.h"
+//#define MainURL @"http://linux.whitelakeinteractive.com/certificate-production_api/api/api.php?cmd="
+
+
+//#define MainURL @"http://198.154.214.204/certificate-production_api/api/api.php?cmd="
+
+
+
+//#define MainURL @"http://23.239.26.136/certificate-production_api/api/api.php?cmd="
+#define MainURL @"http://certification.comehometolindy.com/certificate-production_api/api/api.php?cmd="
+
+
+
+
+//#define MainURL @"http://www.whitelakeinteractive.com/lindy-certification/certificate-production_api/api/api.php?cmd="
+//#define MainURLIMAGE @"http://www.whitelakeinteractive.com/lindy-certification/certificate-production_api/api/leasing_form_images.php?"
+
+
+//#define MainURLPDF @"https://www.whitelakeinteractive.com/lindy-certification/certificate-production_api/api/upload_pdf_to_box.php?"
+
+
+//#define MainURLIMAGE @"http://23.239.26.136/certificate-production_api/api/leasing_form_images.php?"
+
+
+//#define MainURLPDF @"http://23.239.26.136/certificate-production_api/api/upload_pdf_to_box.php?"
+
+
+#define MainURLIMAGE @"http://certification.comehometolindy.com/certificate-production_api/api/leasing_form_images.php?"
+
+
+#define MainURLPDF @"http://certification.comehometolindy.com/certificate-production_api/api/upload_pdf_to_box.php?"
+
+
+
+
+//#define MainURLIMAGE @"https://www.tochinatown.com/api/upload_media_android.php?"
+
+
+//#define MainUrl @"http://23.239.26.136/lindiproperty/index.php/lindiproperty/"
+
+//#define SecondUrl @"http://23.239.26.136/lindiproperty/api/api.php?cmd="
+
+
+
+#endif
+
+
+
+
+
